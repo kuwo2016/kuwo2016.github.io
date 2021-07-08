@@ -33,8 +33,8 @@ jobs:
       - name: 更新 语雀拉取缓存及文章 #更新yuque 拉取的文章到GitHub仓库
         run: |
           echo `date +"%Y-%m-%d %H:%M:%S"` begin > time.log
-          git config --global user.email "499984532@qq.com"
-          git config --global user.name "Zfour"
+          git config --global user.email "68189766@qq.com"
+          git config --global user.name "kuwo2016"
           git add .
           git commit -m "Refresh yuque json" -a
  
